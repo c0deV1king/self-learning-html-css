@@ -1,7 +1,7 @@
 (!DOCTYPE html)
 <html> <!-- everything needs to be within the html tag -->
     <head>
-        
+
         <h1 style="text-align:center; color:chartreuse;"> My Header </h1>
 
         <!-- style function to apply element styles in the body. Should be for temporary and small use. Use a .css stylesheet instead. -->
@@ -15,19 +15,24 @@
         </style> -->
 
         <!-- Instead of an internal stylesheet, il reference an external one -->
-        <link rel="Stylesheet" id="custom-style-css" href="stylesheet.css">
+        <link rel="Stylesheet" id="custom-style-css" href="css/stylesheet.css">
+
+        <script type="text/javascript" src="js/eventExamples.js"></script>
 
     </head>
 
     <body>
-
         
+        <section>
+            <input id="click-demo" type="button" onclick="myEventFunction()" value="Click This">
+            
+        </section>
 
 
         <div id="hero-main-page">
 
             .testingboxenabled test
-            <p style="text-align:right"> testing 2</p>
+            <p style="text-align:right" onclick = "myEventFunction()"> testing 2</p>
         </div>
 
         <!-- Header with size 4 and a style directly applied to it and a style in the head section-->
