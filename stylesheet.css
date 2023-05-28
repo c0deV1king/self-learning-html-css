@@ -18,3 +18,13 @@ ul {
 ol {
     text-align:left; color:aquamarine; background-color:black;
 }
+
+@font-face {
+    font-family: mainTitleFont;
+    src: url(https://fonts.google.com/specimen/Roboto+Mono);
+}
+
+.mainTitleFont {
+    font-family: mainTitleFont;
+}
+
