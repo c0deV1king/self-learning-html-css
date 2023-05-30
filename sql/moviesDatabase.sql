@@ -12,12 +12,12 @@ INSERT INTO movie_info (movieNum, movieTitle, releaseYear,
 directorLastName, country, durationMin) --insert command followed by values below
 
 VALUES 
-(001, "Les Parapluies de Cherbourg", 1964, "Demy", "France", 91), 
-(002, "In the Mood for Love", 2002, "Kar-wai", "Hong Kong", 98), 
-(003, "Roma", 2018, "Cuarón", "Mexico", 135); 
+(001, "Oceanic Gangster", 1964, "Devil", "Cars", 91), 
+(002, "Vile Incompetence", 2002, "Dial Tone", "Kugami", 98), 
+(003, "Rome", 2018, "Centuran", "Deleted", 135); 
 
 SELECT * FROM movie_info;  --view all data
 
 UPDATE movie_info 
-SET releaseYear='2000' 
-WHERE movieTitle='In the Mood for Love' --update data 
+SET releaseYear='2016' 
+WHERE movieTitle='Vile Incompetence' --update data 
