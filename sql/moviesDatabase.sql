@@ -21,3 +21,5 @@ SELECT * FROM movie_info;  --view all data
 UPDATE movie_info 
 SET releaseYear='2016' 
 WHERE movieTitle='Vile Incompetence' --update data 
+
+-- done for documentation purposes, not meant to be used for anything other than education
